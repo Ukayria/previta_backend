@@ -1,15 +1,15 @@
-# models/schemas.py
 from pydantic import BaseModel
 from typing import List, Literal
 from datetime import datetime
 
 class SymptomCheckRequest(BaseModel):
     user_id: str
-    age_range: str          # "18-30", "31-45", etc.
+    age_range: str
     gender: str
-    symptoms: List[str]     # ["Fever", "Headache", "Chills"]
-    duration: str           # "2-3 days"
+    symptoms: List[str]
+    duration: str
     severity: Literal["Mild", "Moderate", "Severe"]
+    language: str = "English"
 
 class Condition(BaseModel):
     name: str
