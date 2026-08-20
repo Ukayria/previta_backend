@@ -2,7 +2,7 @@
 
 > **An AI-powered preventive healthcare platform designed to help users understand their symptoms and health risks, receive personalized health guidance, and connect with professional care.**
 
-## 🌍 Overview
+## Overview
 
 **PreVita** is a mobile-first healthcare technology platform built around the principle of **“Prevention Before Cure.”**
 
@@ -12,7 +12,7 @@ The long-term goal is to bridge the gap between **early health assessment and ac
 
 ---
 
-## 🎯 Problem
+## Problem
 
 Many people experience health symptoms without knowing how serious they may be, what action to take, or when professional medical attention is necessary.
 
@@ -20,17 +20,17 @@ PreVita explores how **AI and digital health technologies can provide an accessi
 
 ---
 
-## 💡 How PreVita Works
+## How PreVita Works
 
 Users can access different parts of the platform independently.
 
-### 🩺 Symptom Checker
+### Symptom Checker
 
 Users provide information about their symptoms, which is processed through the application's assessment and risk-evaluation workflow.
 
 **Symptoms → Assessment → Risk Level → Health Guidance**
 
-### 📊 Health Risk Engine
+### Health Risk Engine
 
 The risk engine evaluates relevant health information and assigns a corresponding risk level.
 
@@ -46,7 +46,7 @@ Low   Moderate   High
 
 The risk engine is designed as a **decision-support component**, not a clinical diagnostic system.
 
-### 🤖 LLM Health Chatbot
+### LLM Health Chatbot
 
 Users can access the AI chatbot directly without first completing the symptom checker.
 
@@ -58,17 +58,17 @@ The chatbot:
 * Encourages users to use the symptom checker when further assessment may be appropriate
 * Encourages users to seek professional medical attention when necessary
 
-### 🌐 Multilingual Support
+### Multilingual Support
 
 Users can select their preferred language, which is passed through the chatbot request flow so that the LLM can generate responses in the selected language.
 
-### 🔐 Authentication & OTP
+### Authentication & OTP
 
 The backend includes user authentication and OTP verification to support secure account access.
 
 ---
 
-# 👩🏾‍💻 My Role
+# My Role
 
 ## Backend Developer
 
@@ -86,7 +86,7 @@ I worked primarily on the **backend development of PreVita**, building several o
 
 ---
 
-# 🏗️ Technology Stack
+# Technology Stack
 
 | Area           | Technologies        |
 | -------------- | ------------------- |
@@ -161,7 +161,7 @@ These features will form part of the next stage of the platform after the necess
 
 ---
 
-# 🗺️ Roadmap
+# Roadmap
 
 ### Healthcare Access
 
@@ -183,15 +183,16 @@ These features will form part of the next stage of the platform after the necess
 
 # 🔗 Project Links
 
-**🌐 Live Product:** (https://previta-swart.vercel.app/)
+**Live Product:** (https://previta-swart.vercel.app/)
 
-**🎨 Frontend Repository:** `(https://github.com/Ukayria/PreVita_frontend)
+**Frontend Repository:** `(https://github.com/Ukayria/PreVita_frontend)
 
 ---
 
-# 👩🏾‍💻 Contributor
+# Contributor
 
 **Chinedu Eucharia Joseph**
+
 *Backend Developer | AI/ML & Healthcare Technology*
 
 **Core contributions:** Symptom Checker · Health Risk Engine · LLM Chatbot · Multilingual AI · Authentication · OTP · Backend APIs
